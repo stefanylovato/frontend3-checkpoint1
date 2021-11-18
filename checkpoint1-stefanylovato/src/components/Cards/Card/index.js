@@ -4,7 +4,7 @@ import './style.scss';
 function Card({ image, title, description, link }) {
     return (
             <div className="col-sm-12 col-md-6 col-lg-3">
-                <div className="card" >
+                <div className="card h-100 d-inline-block">
                     <img src={image} className="card-img-top" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">{title}</h5>

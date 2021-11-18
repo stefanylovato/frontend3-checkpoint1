@@ -1,36 +1,41 @@
 import { Fragment } from "react";
+import projeto1 from '../../assets/projeto1.jpg';
+import trocae from '../../assets/trocae.jpg';
+import coletivamente from '../../assets/coletivamente.jpg';
+import dhmarket from '../../assets/dhmarket.jpg';
+
 import Card from "./Card";
 
 function Cards() {
     const projectsList = [
         {
             id: 0,
-            image: '../../assets/projeto1.jpg',
-            title: 'aiha',
-            description: 'dsdsads',
+            image: projeto1,
+            title: 'Checkpoint I',
+            description: 'Developed in HTML, CSS and JavaScript',
             link: 'https://github.com/stefanylovato/checkpoint2-front2'
         },
         {
             id: 1,
-            image: '',
-            title: '',
-            description: '',
-            link: ''
+            image: trocae,
+            title: 'TrocaE App',
+            description: 'Developed in Figma',
+            link: 'https://www.figma.com/file/Imp8x8fAADkzRZpWCGRJbt/Telas?node-id=0%3A1'
         },
         {
             id: 2,
-            image: '',
-            title: '',
-            description: '',
-            link: ''
+            image: coletivamente,
+            title: 'ColetivaMente',
+            description: 'Developed in Figma',
+            link: 'https://www.figma.com/file/RZRN0BoHQTHWpxDmVeUGyK/coletivamente?node-id=4%3A0'
         },
         {
             id: 3,
-            image: '',
-            title: '',
-            description: '',
+            image: dhmarket,
+            title: 'DH Market',
+            description: 'Developed in HTML and CSS',
             link: ''
-        },
+        }
     ]
 
     return (
