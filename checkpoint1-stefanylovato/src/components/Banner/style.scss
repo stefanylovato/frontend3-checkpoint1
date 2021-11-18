@@ -1,12 +1,31 @@
 #banner,
 #banner iframe{
     width: 100%;
-    height: calc(100vh - 81px);
-    background-image: url('./pexels-pixabay-270360.jpg');
+    height: calc(80vh - 56px);
+    background-image: url('./3c6db16ccd436bddb3d391fa69ead123.jpg');
     background-size: cover;
-    background-attachment: fixed;
+    //background-attachment: fixed;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#banner {
+    .banner-text{
+    color: white;
+    text-shadow: 5px 5px 5px #222;
+    text-align: center;
+    width: 50%;
+        
+        h3{
+            font-size: 30px;
+        }
+        h2{
+            font-size: 40px;
+        }
+        p{
+            font-size: 20px;
+        }
+    }
 }
