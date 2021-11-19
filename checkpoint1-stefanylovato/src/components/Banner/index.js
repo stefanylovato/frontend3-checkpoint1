@@ -9,7 +9,7 @@ const Banner = () => {
             <div className="banner-text">
                 <div className="row featurette">
                     <div class="col-lg-6">
-                        <h2 className="display-4 mt-5 " style={{color: 'var(--blue)'}}>Hey there!<span> I'm Stefany Lovato</span></h2>
+                        <h2 className="display-4 mt-5" style={{color: 'var(--blue)'}}>Hey there!<span> I'm Stefany Lovato</span></h2>
                         <p className="lead mt-4">I'm a coder and UX/UI designer who loves to build beautiful and functional things</p>
                     </div>  
                     <div class="col-lg-6">                  

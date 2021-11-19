@@ -1,7 +1,6 @@
 #banner,
 #banner iframe{
     width: 100%;
-    height: calc(80vh - 56px);
     background-image: url('./3c6db16ccd436bddb3d391fa69ead123.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -9,6 +8,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 5rem 0;
 }
 
 #banner {
