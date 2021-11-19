@@ -12,10 +12,10 @@ const Footer = () => {
         <div id="contact">
             <div className='container-fluid' style={{color: 'white'}}>
                 <div className='row text-center block'>
-                    <h4 className="lead">Contact me!</h4>
+                    <h4 className="lead">Let's work together!</h4><span className='mt-2'>Contact me:</span>
                     <div className='d-flex flex-row mb-3 justify-content-center'>
                     <a href="https://github.com/stefanylovato" target="_blank" rel='noreferrer'><BsGithub /></a>
-                    <a href="https://github.com/stefanylovato" target="_blank" rel='noreferrer'><BsLinkedin /></a>
+                    <a href="https://www.linkedin.com/in/stefany-lovato-680748216/" target="_blank" rel='noreferrer'><BsLinkedin /></a>
                     <a  href="https://github.com/stefanylovato" target="_blank" rel='noreferrer'><BsEnvelopeFill /></a>
                     </div>
                 </div>
