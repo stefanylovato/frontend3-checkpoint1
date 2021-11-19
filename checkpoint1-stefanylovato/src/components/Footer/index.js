@@ -1,37 +1,40 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 /* eslint-disable jsx-a11y/role-supports-aria-props */
 /* eslint-disable jsx-a11y/anchor-is-valid */
+import { BsGithub } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
+import { BsEnvelopeFill } from "react-icons/bs";
 import './style.scss';
 
 const Footer = () => {
 
     return (
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Bottom navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-            <li class="nav-item dropup">
-              <a class="nav-link dropdown-toggle" href="https://getbootstrap.com/" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropup</a>
-              <div class="dropdown-menu" aria-labelledby="dropdown10">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-          </ul>
+        <div id="contact">
+            <div className='container-fluid' style={{color: 'white'}}>
+                <div className='row text-center block'>
+                    <h4 className="lead">Contact me!</h4>
+                    <div className='d-flex flex-row mb-3 justify-content-center'>
+                    <a href="https://github.com/stefanylovato" target="_blank" rel='noreferrer'><BsGithub /></a>
+                    <a href="https://github.com/stefanylovato" target="_blank" rel='noreferrer'><BsLinkedin /></a>
+                    <a  href="https://github.com/stefanylovato" target="_blank" rel='noreferrer'><BsEnvelopeFill /></a>
+                    </div>
+                </div>
+                    
+
+                
+            </div>
         </div>
-      </nav>
+
+
+
+
+
+
+
+
+
+
+        
     )
 }
 

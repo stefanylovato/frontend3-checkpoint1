@@ -12,7 +12,7 @@ function Cards() {
             id: 0,
             image: projeto1,
             title: 'Checkpoint I',
-            description: 'Developed in HTML, CSS and JavaScript',
+            description: 'Developed in HTML and JavaScript',
             link: 'https://github.com/stefanylovato/checkpoint2-front2'
         },
         {
@@ -42,7 +42,7 @@ function Cards() {
         <div id="projects" className="block">
             <div className="container">
                 <div className="row">
-                    <h2 className="display-5">My latest projects</h2>
+                    <h2 className="display-6 mt-3 mb-3" style={{color: 'white'}}>My latest projects</h2>
                 </div>
                 <div className="row">
                     {
