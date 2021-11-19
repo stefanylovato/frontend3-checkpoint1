@@ -10,7 +10,9 @@ function Card({ image, title, description, link }) {
                     <div className="card-body">
                         <h5 className="card-title">{title}</h5>
                         <p className="card-text">{description}</p>
-                        <a href={link} target='_blank' rel='noreferrer' className="btn btn-primary">See more</a>
+                        <div className='d-flex justify-content-center'>
+                        <a href={link} target='_blank' rel='noreferrer' className="btn btn-primary px-5">See more</a>
+                        </div>
                     </div>
                 </div>
                 </div>
